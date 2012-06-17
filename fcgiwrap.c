@@ -42,10 +42,10 @@
 #include <sys/wait.h>
 #include <ctype.h>
 
+#include <netinet/in.h>
 #include <arpa/inet.h>
 #include <sys/socket.h>
 #include <sys/un.h>
-#include <netinet/in.h>
 
 /* glibc doesn't seem to export it */
 #ifndef UNIX_PATH_MAX
